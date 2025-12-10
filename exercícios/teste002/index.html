@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste002</title>
+    <link rel="shortcut icon" href="icone/cdva.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>imagens flexíveis</h2>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagem300.jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem700.jpg">
+        <source media="(max-width: 1850px)" srcset="imagens/imagem1000.jpg">
+        <source media="(max-width: 4276px)" srcset="imagens/imagem1800.jpg">
+        <img src="imagens/pexels-souvenirpixels-417074.jpg" alt="">
+    </picture>
+    <h2>audios</h2>
+
+    <audio preload="metadata" controls>
+        <source src="audios/guanacast-33.mp3" type="audio/mpeg">
+    </audio>
+
+    <audio preload="metadata" controls>
+        <source src="audios/On The Flip - The Grey Room _ Density & Time.mp3" type="audio/mpeg">
+    </audio>
+    <h2>dowloads</h2>
+    <ul>
+        <li><a href="dowload/01 - História da Internet.pdf" download="01 - História da internet.pdf"
+                type="applicaton/pdf">história da internet em pdf</a></li>
+
+
+        <li><a href="dowload/01 - História da Internet.rar" download="01 - História da internet.rar">história da
+                internet em rar</a></li>
+    </ul>
+    <h2>vídeos</h2>
+    <video controls loop width="560" height="315">
+        <source src="videos/14091015_1918_1080_60fps.mp4" type="video/mp4">
+    </video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg?si=hbbH2JvYXYD0wxjV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+
+</html>

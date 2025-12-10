@@ -1,0 +1,10 @@
+@charset "UTF8";
+h2{
+    background-color: rgb(209, 89, 19);
+    color: rgb(26, 26, 100);
+    font-family: cursive;
+    text-align: center;
+}
+li{
+    background-color: rgb(195, 223, 247);
+}

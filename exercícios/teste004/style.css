@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'forresten';
+    src: url(fontes/Forresten.otf) format('opentype'), url(fontes/Forresten.ttf) format('truetype');
+
+
+
+}
+
+h1 {
+    font-family: 'forresten';
+    text-align: center;
+    font-size: 3em;
+    font-weight: normal;
+}
+
+h2 {
+    font-family: "Bitcount Grid Single", system-ui;
+    font-size: 2em;
+    text-align: center;
+    font-weight: normal;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+
+    <style>
+      body{
+        background-color: lightslategray;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+      }
+
+      header{
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        
+      }
+
+      nav{
+        background-color: rgb(107, 102, 102);
+        padding: 7px;
+        box-shadow: 4px 3px 7px 1px rgba(0, 0, 0, 0.671);
+        border-radius: 10px;
+
+      }
+
+      nav > a{
+        text-decoration: none;
+        color: rgb(39, 125, 201);
+        font-weight: bold;
+        margin: 130px;
+      }
+
+      nav > a:hover{
+        color:rgb(238, 255, 0);
+        text-decoration: underline;
+      }
+
+      nav > a:active{
+        color: rgb(255, 249, 249);
+      }
+
+      nav > a:visited{
+        color: brown;
+      }
+      
+      
+
+      main{
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+      }
+
+      article{
+        background-color: gray;
+        padding: 5px;
+        border-radius: 10px 0px;
+        box-shadow: 4px 3px 6px 1px rgba(0, 0, 0, 0.644);
+       
+      }
+
+      article > aside{
+        background-color: rgb(39, 39, 39);
+        color: aliceblue;
+        padding: 3px;
+        border-radius: 10px;
+        margin-bottom: 4px;
+        
+      }
+      aside > p{
+        margin: 0px;
+      }
+
+     footer{
+        background-color: black;
+        color: white;
+        padding: 5px;
+        text-align: center;
+     }
+
+     footer > p{
+      margin: 0px;
+     }
+
+     #bola{
+      height: 100px;
+      width: 100px;
+      background-color: aliceblue;
+      margin: 10px;
+      border-radius: 50%;
+     }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="https://www.youtube.com/watch?v=JACiDRNWjjQ&list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s&index=27" rel="external" target="_blank">link</a>
+            <a href="https://www.canva.com/templates" rel="external" target="_blank">link</a>
+            <a href="https://chatgpt.com/" rel="external" target="_blank">link</a>
+            <a href="https://www.favicon.cc/" rel="external" target="_blank">link</a>
+            <a href="https://favicon.io/#google_vignette"rel="external" target="_blank">link</a>
+        </nav>
+        
+
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>noticia sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum consequuntur voluptate, nesciunt provident, harum error ipsum perspiciatis earum eligendi quibusdam labore porro corrupti saepe quos tenetur exercitationem, optio beatae assumenda.</p>
+                <aside>
+                    <p>arquivo escrito pot vll</p>
+                </aside>
+
+            </article>
+            
+
+        </section>
+
+    </main>
+    <footer>
+        <p>desenvolvido pelo curso em video</p>
+
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
